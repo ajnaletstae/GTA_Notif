@@ -5,6 +5,14 @@ local t_alert =
     "success"
 }
 
+RegisterNetEvent("GTA_NUI_ShowNotif_client")
+AddEventHandler("GTA_NUI_ShowNotif_client",function(data_text, data_type)
+    exports.GTA_Notif:GTA_NUI_ShowNotification({
+        text = data_text,
+        type = data_type --> Your type between error/success/warning
+    })
+end)
+
 --> This is the main function of the notification :
 function GTA_NUI_ShowNotification(setup)
     local text = setup.text or " "

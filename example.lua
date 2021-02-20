@@ -16,6 +16,11 @@ RegisterCommand("notif", function(source, args)
     })
 end, false)
 
+-->e.g with using event server-side : 
+RegisterCommand("notifevent", function(source)
+    TriggerServerEvent("GTA_NUI_ShowNotif_server")
+end, false)
+
 
 --Else you will always use the function like this : 
 --[[

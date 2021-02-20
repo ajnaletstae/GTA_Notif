@@ -4,15 +4,18 @@ game 'gta5'
 
 author 'SuperCoolNinja'
 description 'Experimented html stuff a simple notification.'
-version '1.0.0'
+version '1.1.0'
 
 client_scripts {
     "client/client_sounds.lua",
     "client/client_notification.lua",
-    "example.lua",
+    --"example.lua", --To use it dont forgot to remove the --
 }
 
-server_script "server/server_sounds.lua"
+server_scripts { 
+    "server/server_sounds.lua",
+    --"server_example.lua" --To use it dont forgot to remove the --
+} 
 
 ui_page "html/index.html"
 files {

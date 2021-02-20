@@ -29,6 +29,7 @@ like :
 </ul>
 
 Change the timer of the pop pup display in the js file.
+use the notification by event useful for server-side.
 
 ## License :
 @SuperCoolNinja
