@@ -28,7 +28,7 @@ like :
     <li>success</li>
 </ul>
 
-- Change the timer of the pop pup display in the js file.
+Change the timer of the pop pup display in the js file.
 
 ## License :
 @SuperCoolNinja
