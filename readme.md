@@ -21,7 +21,7 @@ like :
 
 
 ## Features
-- You can select the type of your notification pop pup between : 
+# You can select the type of your notification pop pup between : 
 <ul>
     <li>error</li>
     <li>warning</li>
